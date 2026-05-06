@@ -57,7 +57,7 @@ class LyricsPromptAssistant:
 
     def build_suno_prompt_block(self, req: SongRequest) -> str:
         return (
-            f"Mandopop, {req.genre}, {req.mood}, {req.tempo_bpm} BPM, "
+            f"{req.genre}, {req.mood}, {req.tempo_bpm} BPM, "
             f"{req.voice} vocal, {req.era_style}, cinematic intro, "
             "memorable hook chorus, dynamic bridge lift, clean vocal mix, "
             "warm bass, wide stereo synth layers, polished mastering"
