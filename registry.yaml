@@ -4,6 +4,16 @@
 # should build pages for, and indicates metadata such as tags, creation date and
 # authors for each page.
 
+- title: Chinese Lyrics + Suno Prompt Assistant
+  path: examples/suno_lyrics_assistant/README.md
+  date: 2026-05-06
+  authors:
+    - daveleo-openai
+  tags:
+    - prompt
+    - audio
+    - music
+
 - title: Sora 2 Prompting Guide
   path: examples/sora/sora2_prompting_guide.ipynb
   date: 2025-10-06
